@@ -1,6 +1,9 @@
-//--------------------------------------------------
-// Run "npm run test" after modifying this file
-//--------------------------------------------------
+//-----------------------------------------------------------
+// Run "npm run test" after modifying this file.
+//
+// If you want to see how `typia` transforms (AOT compilation) 
+// JavaScript, run "npm run build" and see "bin/index.js" file.
+//-----------------------------------------------------------
 import typia from 'typia';
 import { v4 } from 'uuid';
 
