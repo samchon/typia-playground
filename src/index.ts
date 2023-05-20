@@ -1,3 +1,6 @@
+//--------------------------------------------------
+// Run "npm run test" after modifying this file
+//--------------------------------------------------
 import typia from 'typia';
 import { v4 } from 'uuid';
 
