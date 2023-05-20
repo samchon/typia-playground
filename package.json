@@ -1,0 +1,40 @@
+{
+  "name": "@typia/playground",
+  "version": "0.1.0",
+  "description": "Playground project of Typia",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf bin && tsc",
+    "dev": "npm run build -- --watch",
+    "prepare": "ts-patch install",
+    "test": "npx ts-node src",
+    "start": "node bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samchon/typia-playground"
+  },
+  "keywords": [
+    "typia"
+  ],
+  "author": "Jeongho Nam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samchon/typia-playground/issues"
+  },
+  "homepage": "https://typia.io/docs",
+  "dependencies": {
+    "typia": "^3.8.9",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.1",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "ts-patch": "^2.1.0",
+    "typescript": "^4.9.5"
+  },
+  "stackblitz": {
+    "startCommand": "npm run prepare && npm run build && npm run test"
+  }
+}
