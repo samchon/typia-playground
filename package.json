@@ -35,6 +35,7 @@
     "typescript": "^4.9.5"
   },
   "stackblitz": {
+    "view": "editor",
     "startCommand": "npm run prepare && npm run test"
   }
 }
