@@ -24,7 +24,7 @@
   },
   "homepage": "https://typia.io/docs",
   "dependencies": {
-    "typia": "^3.8.9",
+    "typia": "^4.0.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
