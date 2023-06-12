@@ -4,5 +4,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
+    ersioning-strategy: increase
     allow:
       - dependency-name: "typia"
