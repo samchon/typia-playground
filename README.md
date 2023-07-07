@@ -1,3 +1,9 @@
+> No more be used.
+>
+> Please visit below site instead.
+>
+> - https://typia.io/playground
+
 # Typia Playground
 This is a playground repo of `typia` running on `StackBlitz`.
 
